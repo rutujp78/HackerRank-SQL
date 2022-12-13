@@ -1,0 +1,3 @@
+set @i=0;
+select repeat('* ',@i:=@i+1)
+from information_schema.tables limit 20;
